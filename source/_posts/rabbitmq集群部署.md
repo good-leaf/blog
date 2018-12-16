@@ -6,7 +6,7 @@ categories: rabbitmq
 tags: rabbitmq
 ---
 
-```javascript
+```
 sudo su
 cd /tmp && wget https://yangyajun-soft.github.io/rabbitmq3.6.6/rabbitmq-server-3.6.6-1.el6.noarch.rpm
 yum install -y rabbitmq-server-3.6.6-1.el6.noarch.rpm
