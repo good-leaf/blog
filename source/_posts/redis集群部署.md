@@ -2,7 +2,7 @@
 title: redis集群部署
 date: 2018-12-14 17:23:57
 updated: 2018-12-14 17:23:57
-categories: 组件
+categories: redis
 tags: redis
 ---
 
