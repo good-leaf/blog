@@ -1,5 +1,5 @@
 ---
-title: hexo 安装
+title: markdown 语法
 date: 2018-12-16 17:23:57
 updated: 2018-12-16 17:23:57
 categories: markdown
