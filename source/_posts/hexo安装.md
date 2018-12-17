@@ -9,7 +9,7 @@ tags: hexo
 ## git设置
 ```
 git config --global user.name "good-leaf"
-git config --global user.email "rwzgnyyj@163.com"
+git config --global user.email "rwzgnyyj@xxx.com"
 ```
 
 ## hexo安装
