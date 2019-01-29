@@ -1,19 +1,19 @@
 ---
-title: hexo 安装
-date: 2018-12-14 17:23:57
-updated: 2018-12-14 17:23:57
-categories: hexo
-tags: hexo
+    title: hexo 安装
+    date: 2018-12-14 17:23:57
+    updated: 2018-12-14 17:23:57
+    categories: hexo
+    tags: hexo
 ---
 
 ## git设置
-```
+```java
 git config --global user.name "good-leaf"
 git config --global user.email "rwzgnyyj@xxx.com"
 ```
 
 ## hexo安装
-```
+```java
 npm install -g hexo-cli
 cd
 hexo init blog
@@ -25,7 +25,7 @@ npm install --save hexo-deployer-git
 
 ## hexo配置
 添加git地址：使用ssh时，需要将本机ssh key添加到github上，并且选择ssh访问方式。
-```
+```java
 deploy:
   type: git
   repo: git@github.com:good-leaf/good-leaf.github.io.git
@@ -33,7 +33,7 @@ deploy:
 ```
 
 修改端口：vi _config.yml
-```
+```java
 server:
   port: 4001
   compress: true
@@ -41,7 +41,7 @@ server:
 ```
 
 搜索支持：
-```
+```java
 npm install hexo-generator-searchdb --save
 
 search:
@@ -52,7 +52,7 @@ search:
 ```
 
 ## 更换主题：访问页面显示
-```
+```java
 extends partial/layout
 
 block container
