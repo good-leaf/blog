@@ -6,6 +6,10 @@
     tags: Mac iTerm
 ---
 
+Mac iTerm终端使用
+
+<!--more-->
+
 ### 标签
     新建标签：command + t
     关闭标签：command + w

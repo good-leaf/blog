@@ -1,9 +1,9 @@
 ---
-title: vimdiff
-date: 2019-01-08 14:22:53
-updated: 2019-01-08 14:22:53
-categories: linux
-tags: linux
+    title: vimdiff
+    date: 2019-01-08 14:22:53
+    updated: 2019-01-08 14:22:53
+    categories: vimdiff
+    tags: vimdiff
 ---
 
 ##实用的vim下比较两个文件命令：
