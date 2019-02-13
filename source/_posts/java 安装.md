@@ -1,3 +1,15 @@
+---
+
+    title: java安装
+
+    date：2019-02-13 17:23:39
+
+    categories: java
+
+    tags: java
+
+---
+
 # java 安装
 
 1. java 1.8 安装
