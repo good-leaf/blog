@@ -6,8 +6,6 @@ categories: self
 tags: self
 ---
 
-## git账号管理
-
 ### 代码账号
 
 ```java
