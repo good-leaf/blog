@@ -5,8 +5,6 @@ categories: java
 tags: java
 ---
 
-# java 安装
-
 1. java 1.8 安装
 
    yum install yum install java-1.8.0-openjdk-devel.x86_64

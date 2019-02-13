@@ -4,10 +4,7 @@ date: 2019-02-13 17:27:28
 updated: 2019-02-13 17:27:28
 categories: Intellij IDEA
 tags: Intellij IDEA
-
 ---
-
-# Intellij IDEA使用
 
 1. 关闭自动更新
 
