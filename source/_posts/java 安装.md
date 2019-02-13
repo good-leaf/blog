@@ -1,6 +1,6 @@
 ---
 title: java安装
-    date：2019-02-13 17:23:39
+    date: 2019-02-13 17:23:39
     categories: java
     tags: java
 ---
