@@ -1,9 +1,9 @@
 ---
 title: account
-    date: 2018-12-16 18:35:26
-    updated: 2018-12-16 18:35:26
-    categories:
-    tags:
+date: 2018-12-16 18:35:26
+updated: 2018-12-16 18:35:26
+categories: self
+tags: self
 ---
 
 ## git账号管理
