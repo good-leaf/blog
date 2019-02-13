@@ -1,3 +1,13 @@
+---
+
+title: Intellij IDEA 使用
+date: 2019-02-13 17:27:28
+updated: 2019-02-13 17:27:28
+categories: Intellij IDEA
+tags: Intellij IDEA
+
+---
+
 # Intellij IDEA使用
 
 1. 关闭自动更新
@@ -12,7 +22,7 @@
    Scheme: Darcula
    Show only monospaced fonts 设置第一字体，Monaco 不支持中文
        Primary font:Monaco Size:20 Line spacing:1.0
-   Secondary font：YaHei Consolas Hybrid  设置第二字体  
+   Secondary font：YaHei Consolas Hybrid  设置第二字体
    ```
 
 3. 文件编码
@@ -39,7 +49,7 @@
    ```powershell
    Tab size: 4 
    Indent: 4
-   Continuation indent: 8 
+   Continuation indent: 8
    ```
 
    如果要对多个文件进行转换，可以在文件夹上面按右键，然后点击Reformat Code或者选中文件夹按快捷键ctrl+alt+L对多个快捷键整理。
