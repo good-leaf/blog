@@ -1,16 +1,16 @@
 ---
-    title: redis安装
-    date: 2018-12-14 17:23:57
-    updated: 2018-12-14 17:23:57
-    categories: redis
-    tags: redis
+title: redis安装
+date: 2018-12-14 17:23:57
+updated: 2018-12-14 17:23:57
+categories: redis
+tags: redis
 ---
 
 版本：redis-3.2.8-1.el6.remi.x86_64.rpm
 
 <!--more-->
 
-``` c
+```c
 sudo su
 cd /tmp && wget https://yangyajun-soft.github.io/redis/redis-3.2.8-1.el6.remi.x86_64.rpm
 yum install -y redis-3.2.8-1.el6.remi.x86_64.rpm

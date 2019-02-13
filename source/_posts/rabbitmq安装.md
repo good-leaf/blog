@@ -1,9 +1,9 @@
 ---
-    title: rabbitmq安装
-    date: 2018-12-14 17:23:57
-    updated: 2018-12-14 17:23:57
-    categories: rabbitmq
-    tags: rabbitmq
+title: rabbitmq安装
+date: 2018-12-14 17:23:57
+updated: 2018-12-14 17:23:57
+categories: rabbitmq
+tags: rabbitmq
 ---
 
 版本：rabbitmq-server-3.6.6-1.el6.noarch.rpm
