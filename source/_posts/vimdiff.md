@@ -2,9 +2,26 @@
 title: vimdiff
 date: 2019-01-08 14:22:53
 updated: 2019-01-08 14:22:53
-categories: vimdiff
+categories: linux
 tags: vimdiff
 ---
+##实用的vim下比较两个文件命令：
+
+### 1、 vimdiff file1 file2
+
+终端下输入该命令进入vim，垂直分隔窗口进行比较
+
+### 2、 vimdiff -o file1 file2
+
+水平分隔窗口进行比较
+
+### 3、 ctrl+w (j,k,h,l)
+
+上下左右切换光标所在的窗口（括号中表示可以是其中之一，按下ctrl+w，放开ctrl再按j,k,h,l）
+
+### 4、 ctrl+w (J,K,H,L)
+
+<!--more-->
 
 ##实用的vim下比较两个文件命令：
 

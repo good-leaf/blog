@@ -1,4 +1,10 @@
-### erlang知识点记录
+---
+title: erlang知识点记录
+date: 2019-01-08 14:22:53
+updated: 2019-01-08 14:22:53
+categories: develop-language
+tags: erlang
+---
 
 1. gen_server:cast和erlang:send()都可以向指定进程发送消息，两者有什么区别？
 

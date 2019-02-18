@@ -1,4 +1,10 @@
-### linux sysctl.conf调整
+---
+title: sysctl.conf调整
+date: 2019-01-08 14:22:53
+updated: 2019-01-08 14:22:53
+categories: linux
+tags: sysctl
+---
 
 设置tcp参数一定要小心谨慎,轻易不要更改线上环境。
 

@@ -1,4 +1,10 @@
-### tcp 参数调优
+---
+title: tcp参数调优
+date: 2019-01-08 14:22:53
+updated: 2019-01-08 14:22:53
+categories: linux
+tags: sysctl
+---
 
 1. /etc/sysctl.conf
 
