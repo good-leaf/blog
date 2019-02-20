@@ -3,14 +3,15 @@ title: rabbitmq安装
 date: 2018-12-14 17:23:57
 updated: 2018-12-14 17:23:57
 categories: 开源框架
-tags: rabbitmq
+tags: rabbitmq安装
 ---
 
 版本：rabbitmq-server-3.6.6-1.el6.noarch.rpm
 
 <!--more-->
 
-```c
+### 安装脚本
+```bash
 sudo su
 cd /tmp && wget https://yangyajun-soft.github.io/rabbitmq3.6.6/rabbitmq-server-3.6.6-1.el6.noarch.rpm
 yum install -y rabbitmq-server-3.6.6-1.el6.noarch.rpm
@@ -38,3 +39,20 @@ rabbitmqctl set_user_tags admin administrator
 rabbitmqctl add_user user password
 rabbitmqctl set_permissions -p "/" user '.*' '.*' '.*'
 ```
+### 配置文件
+- enabled_plugins
+```bash
+[rabbitmq_management,rabbitmq_tracing].
+```
+- rabbitmq.config
+```bash
+[
+{rabbit, [{disk_free_limit, 5242880}
+          ,{vm_memory_high_watermark, 0.8}
+          ,{loopback_users, []}
+         ]},
+{rabbitmq_management, [{listener, [{port, 8080}]}]}
+{rabbitmq_management_agent, [ {force_fine_statistics, false} ] }
+].
+```
+- 
