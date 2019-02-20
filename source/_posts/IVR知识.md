@@ -1,13 +1,8 @@
 ---
-
 title: ivr知识
-
 date: 2019-02-20 20:04:23
-
 updated: 2019-02-20 20:04:23
-
 categories: CTI呼叫中心
-
 tags: ivr知识
 
 ---
