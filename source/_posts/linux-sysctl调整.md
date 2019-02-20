@@ -4,7 +4,6 @@ date: 2019-01-08 14:22:53
 updated: 2019-01-08 14:22:53
 categories: 系统
 tags: linux-sysctl
-
 ---
 
 设置tcp参数一定要小心谨慎,轻易不要更改线上环境。
