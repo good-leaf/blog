@@ -1,23 +1,14 @@
 ---
-title: erlang 防坑指南
+title: erlang防坑指南
 date: 2018-12-16 18:35:26
 updated: 2018-12-16 18:35:26
 categories: 开发语言
 tags: erlang
+
 ---
 
 任何语言在使用中都会遇到这样那样的问题，erlang也是。这里整理下我遇到的一些问题，避免继续踩坑。说实话，“防坑指南”这个标题有点过于标新立异，不过还是希望能引起重视，避免在实际开发中重复犯这些问题。
 <!--more-->
-
----
-
-title: erlang防坑指南
-date: 2019-01-08 14:22:53
-updated: 2019-01-08 14:22:53
-categories: develop-language
-
-tags: erlang
----
 
 ### '--' 运算与 '++'运算
 
