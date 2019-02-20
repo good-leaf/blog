@@ -6,11 +6,8 @@ tags: rabbitmq集群
 ---
 
 ### 集群
-
-    RabbitMQ集群中可以共享user，virtualhosts，queues，exchanges等。但message只会在创建的节点上传输。当message进入A节点的queue中后，consumer从B节点拉取时，RabbitMQ会临时在A、B间进行消息传输，把A中的消息实体取出并经过B发送给consumer。所以consumer应尽量连接每一个节点，从中取消息。
-    
-    RABBITMQ的集群节点包括内存节点、磁盘节点。内存节点的元数据仅放在内存中，性能比磁盘节点会有所提升。不过，如果在投递message时，打开了message的持久化，那么内存节点的性能只能体现在资源管理上，比如增加或删除队列（queue），虚拟主机（vrtual hosts），交换机（exchange）等，发送和接受message速度同磁盘节点一样。一个集群至少要有一个磁盘节点。
-
+RabbitMQ集群中可以共享user，virtualhosts，queues，exchanges等。但message只会在创建的节点上传输。当message进入A节点的queue中后，consumer从B节点拉取时，RabbitMQ会临时在A、B间进行消息传输，把A中的消息实体取出并经过B发送给consumer。所以consumer应尽量连接每一个节点，从中取消息。
+RABBITMQ的集群节点包括内存节点、磁盘节点。内存节点的元数据仅放在内存中，性能比磁盘节点会有所提升。不过，如果在投递message时，打开了message的持久化，那么内存节点的性能只能体现在资源管理上，比如增加或删除队列（queue），虚拟主机（vrtual hosts），交换机（exchange）等，发送和接受message速度同磁盘节点一样。一个集群至少要有一个磁盘节点。
 <!--more-->
 
 ### 普通集群
