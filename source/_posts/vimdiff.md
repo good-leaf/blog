@@ -2,8 +2,8 @@
 title: vimdiff
 date: 2019-01-08 14:22:53
 updated: 2019-01-08 14:22:53
-categories: linux
-tags: vimdiff
+categories: 系统
+tags: linux-vimdiff
 ---
 
 ##实用的vim下比较两个文件命令：

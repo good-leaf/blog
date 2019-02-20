@@ -2,7 +2,7 @@
 title: Mac iTerm使用
 date: 2018-12-20 17:23:57
 updated: 2018-12-20 17:23:57
-categories: Mac iTerm
+categories: 开发工具
 tags: Mac iTerm
 ---
 

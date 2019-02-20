@@ -2,8 +2,8 @@
 title: Intellij IDEA使用
 date: 2019-02-13 17:27:28
 updated: 2019-02-13 17:27:28
-categories: development_tool
-tags: development_tool
+categories: 开发工具
+tags: idea
 ---
 
 1. 关闭自动更新

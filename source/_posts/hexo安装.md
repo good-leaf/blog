@@ -2,7 +2,7 @@
 title: hexo 安装
 date: 2018-12-14 17:23:57
 updated: 2018-12-14 17:23:57
-categories: hexo
+categories: 开源框架
 tags: hexo
 ---
 

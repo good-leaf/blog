@@ -1,7 +1,7 @@
 ---
 title: rabbitmq知识
 date: 2019-02-13 17:23:39
-categories: 组件
+categories: 开源框架
 tags: rabbitmq
 ---
 

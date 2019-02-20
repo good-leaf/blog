@@ -2,8 +2,8 @@
 title: tcp参数调优
 date: 2019-01-08 14:22:53
 updated: 2019-01-08 14:22:53
-categories: linux
-tags: sysctl
+categories: 系统
+tags: linux-sysctl
 ---
 
 1. /etc/sysctl.conf
@@ -52,7 +52,7 @@ net.ipv4.tcp_mem=786432 2097152 3145728
 
    生效：source /etc/profile
 
-3.  error, emfile 最大用户进程需要在90-nproc.conf
+3. error, emfile 最大用户进程需要在90-nproc.conf
 
    vi /etc/security/limits.conf
 
@@ -62,7 +62,7 @@ net.ipv4.tcp_mem=786432 2097152 3145728
 
    然后，一般来说，修改ulimit的数值，只需要修改/etc/security/limits.conf即可，但是这个参数需要修改/etc/security/limits.d/90-nproc.conf。centos 6.*可以修改/etc/security/limits.d/90-nproc.conf，但centos 5.*并没有90-nproc.conf这个文件，我这边是通过修改/etc/security/limits.conf。
 
-4.  netstat -n | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}'
+4. netstat -n | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}'
 
    CLOSE_WAIT 162
 

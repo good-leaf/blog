@@ -1,7 +1,7 @@
 ---
 title: java安装
 date: 2019-02-13 17:23:39
-categories: develop-language
+categories: 开发语言
 tags: java
 ---
 
@@ -19,13 +19,14 @@ tags: java
    CLASSPATH=.:$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar
    PATH=$JAVA_HOME/bin:$HOME/bin:$HOME/.local/bin:$PATH
    ```
-<!--more-->
 
-1. java 1.8 安装
+   <!--more-->
+
+3. java 1.8 安装
 
    yum install yum install java-1.8.0-openjdk-devel.x86_64
 
-2. java 环境变量
+4. java 环境变量
 
    CLASSPATH中的tools.jar主要包含一些工具，如javac（将.java编译为.class）、javadoc（根据java源文件以html格式生成API文档）、javap（反汇编.class文件）等；
 
@@ -36,7 +37,7 @@ tags: java
    PATH=$JAVA_HOME/bin:$HOME/bin:$HOME/.local/bin:$PATH
    ```
 
-3. java 安装目录信息
+5. java 安装目录信息
 
    dt.jar中包含了关于swing的控件对应的图标和BeanInfo.class
 

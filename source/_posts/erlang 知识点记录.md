@@ -2,7 +2,7 @@
 title: erlang知识点记录
 date: 2019-01-08 14:22:53
 updated: 2019-01-08 14:22:53
-categories: develop-language
+categories: 开发语言
 tags: erlang
 ---
 
@@ -85,7 +85,3 @@ tags: erlang
 10. receive的理解
 
     receive会检查遍历进程的邮箱一次，如果匹配到条件，就执行条件后的代码，并去掉邮箱中对应消息，停止匹配过程。等待下一条消息到达时触发再次匹配逻辑。
-
-
-
-

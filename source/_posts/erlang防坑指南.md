@@ -2,7 +2,7 @@
 title: erlang 防坑指南
 date: 2018-12-16 18:35:26
 updated: 2018-12-16 18:35:26
-categories: erlang
+categories: 开发语言
 tags: erlang
 ---
 
@@ -10,10 +10,12 @@ tags: erlang
 <!--more-->
 
 ---
+
 title: erlang防坑指南
 date: 2019-01-08 14:22:53
 updated: 2019-01-08 14:22:53
 categories: develop-language
+
 tags: erlang
 ---
 

@@ -2,7 +2,7 @@
 title: rabbitmq安装
 date: 2018-12-14 17:23:57
 updated: 2018-12-14 17:23:57
-categories: OpenSource
+categories: 开源框架
 tags: rabbitmq
 ---
 
