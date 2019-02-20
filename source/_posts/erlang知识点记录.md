@@ -3,7 +3,7 @@ title: erlang知识点记录
 date: 2019-01-08 14:22:53
 updated: 2019-01-08 14:22:53
 categories: 开发语言
-tags: Erlang
+tags: erlang
 
 ---
 
