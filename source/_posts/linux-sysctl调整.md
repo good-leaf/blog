@@ -8,18 +8,18 @@ tags: sysctl
 
 设置tcp参数一定要小心谨慎,轻易不要更改线上环境。
 
-<!---more-->
-
 ```bash
 et.ipv4.tcp_tw_reuse    = 1 
 net.ipv4.tcp_tw_recycle  = 1 
 net.ipv4.tcp_fin_timeout = 30 
 net.ipv4.tcp_keepalive_time = 1800 
 net.ipv4.tcp_max_syn_backlog = 4096 
-net.ipv4.tcp_syncookies = 1 www.2cto.com  
+net.ipv4.tcp_syncookies = 1 www.2cto.com
 ```
 
 执行 /sbin/sysctl -p 让参数生效。
+
+<!---more-->
 
 1. 大量TIME_WAIT问题
 
@@ -256,7 +256,3 @@ net.ipv4.tcp_syncookies = 1 www.2cto.com
    缺省值为0
 
    为快速长距离网络启用 Binary Increase Congestion；这样可以更好地利用以 GB 速度进行操作的链接；对于 WAN 通信应该启用这个选项。
-
-   
-
-
