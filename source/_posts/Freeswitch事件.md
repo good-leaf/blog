@@ -1,9 +1,11 @@
----	
-	title: Freeswitch事件
-	date: 2019-02-23 14:22:53
-	updated: 2019-02-23 14:22:53
-	categories: 开源框架
-	tags: Freeswitch
+---
+
+title: Freeswitch事件
+date: 2019-02-23 14:22:53
+updated: 2019-02-23 14:22:53
+categories: 开源框架
+tags: Freeswitch
+
 ---
 
 Freeswitch内核之事件类型
