@@ -1,10 +1,10 @@
 ---
 
-title: rpc知识
+title: RPC
 date: 2019-02-23 14:22:53
 updated: 2019-02-23 14:22:53
 categories: 协议
-tags: rpc
+tags: RPC
 
 ---
 RPC（即Remote Procedure Call，远程过程调用）和HTTP（HyperText Transfer Protocol，超文本传输协议）他们最本质的区别，就是RPC主要工作在TCP协议之上，而HTTP服务主要是工作在HTTP协议之上，我们都知道HTTP协议是在传输层协议TCP之上的，所以效率来看的话，RPC当然是要更胜一筹。
