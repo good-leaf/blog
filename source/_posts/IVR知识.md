@@ -1,9 +1,9 @@
 ---
-title: ivr知识
+title: IVR知识
 date: 2019-02-20 20:04:23
 updated: 2019-02-20 20:04:23
 categories: CTI呼叫中心
-tags: ivr知识
+tags: IVR知识
 
 ---
 
@@ -15,4 +15,4 @@ tags: ivr知识
 
 复杂流程：商家根据播放语音选择按键，进入下一级ivr流程。
 
-
+<!--more-->

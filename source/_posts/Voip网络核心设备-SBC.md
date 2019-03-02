@@ -11,7 +11,7 @@ tags: voip
 ### Voip网络核心设备-SBC
 
 SBC（Session Border Controlle）是目前voip网络中的核心设备，中文意思是会话边界控制器。顾名思义，就是在网络边界处（内网和外网）对会话进行管理的设备。我们提到的会话是指SIP Session。
-
+<!--more-->
 ![](http://s13.sinaimg.cn/large/001p2KAvzy7g3biBp92ec&690)
 
 ### 功能

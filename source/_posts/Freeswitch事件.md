@@ -15,6 +15,7 @@ Freeswitch内核之事件类型
 3.3 CHANNEL_CREATE 创建事件。  
 3.4 CHANNEL_DESTROY 销毁事件。  
 3.5 CHANNEL_STATE 呼叫状态事件。当一个信道切换通话状态时发送。此事件并不包含任何附加信息。  
+<!--more-->
 3.6 CHANNEL_ANSWER 呼叫应答事件。  
 3.7 CHANNEL_HANGUP 挂机事件。
 3.8 CHANNEL_HANGUP_COMPLETE 挂机完成事件。  

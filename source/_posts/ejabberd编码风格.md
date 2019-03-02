@@ -1,11 +1,9 @@
 ---
-
 title: ejabberd编码风格
-date: 2019-03-01 17:22:53
-updated: 2019-03-01 17:22:53
+date: 2019-03-02 17:22:53
+updated: 2019-03-02 17:22:53
 categories: 开发语言
 tags: erlang
-
 ---
 
 ### ejabberd编码风格
@@ -28,7 +26,7 @@ tags: erlang
   % @doc spaces!!
   good(_Hey, _Now, _It) -> ["works " ++ "again, " | [hooray]].
   ```
-
+<!--more-->
 - 行尾不留空白
 
 - 每行100列，100字符为最大值
