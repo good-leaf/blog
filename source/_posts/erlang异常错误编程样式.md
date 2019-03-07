@@ -23,7 +23,9 @@ tags: erlang异常错误编程样式
    sqrt(X) ->
        match:sqrt(X).
    ```
-<!--more-->
+
+   <!--more-->
+
 2. 经常返回错误时代码
 
    如果函数没有什么“通常的情形”，那么多半返回{ok, Val}或者{error, Reason}，这样迫使所有调用者必须对返回值做什么。一种代码编写：
@@ -71,7 +73,7 @@ tags: erlang异常错误编程样式
               throw({thisError,...});
            ... ->
               throw({someOtherError,...}) 
-       end.             
+       end.
    ```
 
 4. 捕捉一切可能的异常错误
@@ -85,7 +87,7 @@ tags: erlang异常错误编程样式
    try Expr
    catch
        _ ... 默认只能处理throw:_ 类型的错误
-   end    
+   end
    ```
 
 ### 事例
@@ -103,15 +105,14 @@ catcher(N) ->
     catch 
         throw:X -> {N, caught, throw, X};
         exit:X -> {N, caught, exited, X};
-        error:X -> {N, caucaughtgth, error, X}
+        error:X -> {N, caught, error, X}
     end.       
-    
+
 demo1() ->
     [catcher(I) || I <- lists:seq(1,5)].
-    
+
 demo2() ->
 [{I, (catch generate_exception(I))} || I <- lists:seq(1,5)].
-    
 ```
 
 结果：
@@ -154,13 +155,3 @@ exit(Reason): 当想要终止当前进程时，用这个函数。如果这个消
 throw(Any): 用于抛出一个调用者可能会捕获的异常。针对throw，必须为函数添加注释，说明他会抛出这个异常。调用者可以选择：忽略这些异常/对异常进行处理。
 
 error(Reason): 用于抛出那些“崩溃错误“。这种异常应该是调用者不会真正意识到要去处理的那些致命错误。
-
-
-
-
-
-
-
-
-
-
